@@ -3,7 +3,7 @@ import pyautogui
 import numpy as np
 import pygetwindow as gw
 
-window_name = "test.txt" #Window name to record
+window_name = "test.txt" #Window name to record, Example: Note.txt (Notepad TXT file)
 
 fourcc = cv2.VideoWriter_fourcc(*"XVID")
 fps = 30.0 #FPS
